@@ -27,6 +27,28 @@ h1 {
   color: #444;
 }
 
+button {
+  margin: 8% auto;
+  padding: 17px 22%;
+  font-size: 14px;
+  font-weight: 400;
+  background: #007fa3;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+}
+
+button:hover {
+  background: #025f79;
+  cursor: pointer;
+}
+
+
 /* ---header ---*/
 .product-header {
   background: #fff;
@@ -149,22 +171,5 @@ h1 {
 
 .description {
   line-clamp: 2;
-}
-
-button {
-  margin: 8% auto;
-  padding: 17px 22%;
-  font-size: 14px;
-  font-weight: 400;
-  background: #007fa3;
-  border: 1px solid #ccc;
-  border-radius: 9999px;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  position: relative;
-  display: block;
-  cursor: pointer;
 }
 
