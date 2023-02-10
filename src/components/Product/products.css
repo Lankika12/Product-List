@@ -75,7 +75,7 @@
     }
   }
 
-  @media only screen and (max-width: 680px) {
+  @media only screen and (max-width: 678px) {
     .product-wrap-box {
         width: 46%;
     }
