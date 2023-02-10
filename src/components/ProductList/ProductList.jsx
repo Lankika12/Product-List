@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './productList.css';
+import logo from '../../assets/images/pearson-logo.png';
 import Products from '../Product/Products';
 
 
@@ -55,8 +56,8 @@ function ProductList(props) {
         <div>
             <div className="product-header">
                 <div className="product-header-inner">
-                    <div className="product-title">
-                    <h1> Pearson Products</h1>
+                    <div className="product-logo">
+                        <img src={logo} />
                     </div>
                     <div className="search-products">
                         <div className="search-bar-wrapper">
