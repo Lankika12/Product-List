@@ -1,9 +1,10 @@
 import React from 'react';
+import './products.css';
 import styled from 'styled-components';
 
 function Products(props) {
   return (
-    <Wrapper key={props.id}>
+    <Wrapper key={props.id} className="box">
         <div className="product-wrapper-inner">            
             <div className="product-img-wrap">
             <picture>

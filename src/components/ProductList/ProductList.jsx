@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Products from './Products';
+import './productList.css';
+import Products from '../Product/Products';
 
 
 
@@ -7,7 +8,6 @@ function ProductList(props) {
 
     const [productDetails, setProducts] = useState([]);
     const [search, setSearch] = useState('');
-
     const [sortType, setSortType] = useState("title");
 
    
